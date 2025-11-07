@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>기록공유플랫폼,피에스</title>
+     <link rel="stylesheet preload" as="style" crossorigin
+          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+     <link rel="stylesheet" href="/src/styles/reset.css">
+     <link rel="stylesheet" href="/src/styles/header.css">
+     <link rel="stylesheet" href="/src/styles/mainhero.css">
+     <link rel="stylesheet" href="/src/styles/mainsection1.css">
+     <link rel="stylesheet" href="/src/styles/mainsection2.css">
+     <link rel="stylesheet" href="/src/styles/mainsection3.css">
+     <link rel="stylesheet" href="/src/styles/footer.css">
+     <script src="/src/scripts/main.js" defer></script>
+
+     <style>
+          html {
+               font-size: 16px;
+               font-weight: 400;
+               box-sizing: border-box;
+          }
+
+          *,
+          *::before,
+          *::after {
+               margin: 0;
+               padding: 0;
+          }
+
+          body {
+               font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui,
+                    Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo',
+                    'Noto Sans KR', 'Malgun Gothic', sans-serif;
+          }
+     </style>
+</head>
+
+<body>
+     <div class="headertop">
+          <a href="#" class="headertop-text">지금 바로 앱 다운로드하고 즐거운 취향기록을 시작해보세요 !</a>
+          <button class="headertop-btn"><img src="/src/assets/images/icons/닫기.png" alt="닫기아이콘"
+                    class="close-icon"></button>
+     </div>
+     <header class="header">
+          <a href="index.html" class="logo"><img src="/src/assets/images/logo/ps로고.png" alt="로고" class="logo-icon"></a>
+          <div class="top-search-wrapper">
+               <img src="/src/assets/images/icons/검색.png" alt="검색아이콘" class="search-icon">
+               <input type="search" class="main-search-input" id="main-search-id" placeholder="통합검색">
+          </div>
+          <div class="top-menu-wrapper">
+               <a href="#"><img src="/src/assets/images/icons/장바구니.png" alt="장바구니아이콘" class="cart-icon"></a>
+               <div class="top-cta-wrapper">
+                    <a href="#">로그인 /</a>
+                    <a href="#">회원가입</a>
+               </div>
+               <div class="btn-upload">
+                    <a href="#">글쓰기</a>
+               </div>
+          </div>
+     </header>
+
+     <nav class="main-nav">
+          <ul class="main-nav-ul">
+               <li class="nav-1"><a href="index.html">홈</a></li>
+               <li class="nav-2"><a href="#">기록 둘러보기</a></li>
+               <li class="nav-3"><a href="#">쇼핑</a></li>
+               <li class="nav-4"><a href="#">추구미 찾기</a></li>
+               <li class="nav-5"><a href="#">오프라인샵</a></li>
+               <li class="nav-6"><a href="#">기록으로 모임</a></li>
+          </ul>
+     </nav>
+
+
+     <main>
+          <section class="hero">
+               <div class="heromainimg"><img src="/src/assets/images/이미지모음/mainimg.jpg" alt="메인이미지" class="hero-img">
+               </div>
+               <div class="hero-wrapper">
+                    <div class="hero-slider">
+                         <div class="slider-track">
+                              <a href="#" class="herosliderimg">
+                                   <img src="/src/assets/images/이미지모음/mainslide/배너1.jpg" alt="슬라이드1">
+                              </a>
+                              <a href="#" class="herosliderimg">
+                                   <img src="/src/assets/images/이미지모음/mainslide/배너2.jpg" alt="슬라이드2">
+                              </a>
+                              <a href="#" class="herosliderimg">
+                                   <img src="/src/assets/images/이미지모음/mainslide/배너3.jpg" alt="슬라이드3">
+                              </a>
+                              <a href="#" class="herosliderimg">
+                                   <img src="/src/assets/images/이미지모음/mainslide/배너4.jpg" alt="슬라이드4">
+                              </a>
+                         </div>
+                    </div>
+
+                    <button type="button" class="hero-pre-button"><img src="/src/assets/images/icons/이전버튼.png"
+                              alt="이전버튼" class="sign-button-img"></button>
+                    <button type="button" class="hero-next-button"><img src="/src/assets/images/icons/다음버튼.png"
+                              alt="다음버튼" class="sign-button-img"></button>
+               </div>
+
+
+
+          </section>
+
+
+          <section class="section1">
+
+               <div class="section-text-wrapper">
+                    <div class="section-text">
+                         <div class="title-text">어떤 기록을 찾고 계시나요?</div>
+                         <div class="add-text">유저들의 기록생활 둘러보기</div>
+                    </div>
+                    <a href="#" class="btn-plus">더보기</a>
+               </div>
+
+
+               <div class="section1-wrapper">
+                    <ul class="section1-ul-all">
+                         <li class="section1-slide">
+                              <a href="#">
+                                   <img src="/src/assets/images/이미지모음/메인섹션1/노트그림.jpg" alt="슬라이드1" class="section1-img">
+                              </a>
+                              <div class="section1-slide-item">
+                                   <img src="/src/assets/images/이미지모음/유저프로필/user1-1.jpg" alt="유저프로필"
+                                        class="userprofile">
+                                   <p class="username">@username</p>
+                              </div>
+                         </li>
+
+                         <li class="section1-slide">
+                              <a href="#">
+                                   <img src="/src/assets/images/이미지모음/메인섹션1/전등.jpg" alt="슬라이드2" class="section1-img">
+                              </a>
+                              <div class="section1-slide-item">
+                                   <img src="/src/assets/images/이미지모음/유저프로필/user1-2.jpg" alt="유저프로필"
+                                        class="userprofile">
+                                   <p class="username">@username</p>
+                              </div>
+                         </li>
+
+                         <li class="section1-slide">
+                              <a href="#">
+                                   <img src="/src/assets/images/이미지모음/메인섹션1/몰스킨.jpg" alt="슬라이드2" class="section1-img">
+                              </a>
+                              <div class="section1-slide-item">
+                                   <img src="/src/assets/images/이미지모음/유저프로필/user1-3.jpg" alt="유저프로필"
+                                        class="userprofile">
+                                   <p class="username">@username</p>
+                              </div>
+                         </li>
+
+                         <li class="section1-slide">
+                              <a href="#">
+                                   <img src="/src/assets/images/이미지모음/메인섹션1/가죽다이어리.jpg" alt="슬라이드2"
+                                        class="section1-img">
+                              </a>
+                              <div class="section1-slide-item">
+                                   <img src="/src/assets/images/이미지모음/유저프로필/user1-4.jpg" alt="유저프로필"
+                                        class="userprofile">
+                                   <p class="username">@username</p>
+                              </div>
+                         </li>
+
+                         <li class="section1-slide">
+                              <a href="#">
+                                   <img src="/src/assets/images/이미지모음/메인섹션1/맥북데스크.jpg" alt="슬라이드2" class="section1-img">
+                              </a>
+                              <div class="section1-slide-item">
+                                   <img src="/src/assets/images/이미지모음/유저프로필/user1-5.jpg" alt="유저프로필"
+                                        class="userprofile">
+                                   <p class="username">@username</p>
+                              </div>
+                         </li>
+
+                         <li class="section1-slide">
+                              <a href="#">
+                                   <img src="/src/assets/images/이미지모음/메인섹션1/신문.jpg" alt="슬라이드2" class="section1-img">
+                              </a>
+                              <div class="section1-slide-item">
+                                   <img src="/src/assets/images/이미지모음/유저프로필/user1-6.jpg" alt="유저프로필"
+                                        class="userprofile">
+                                   <p class="username">@username</p>
+                              </div>
+                         </li>
+                         <li class="section1-slide">
+                              <a href="#">
+                                   <img src="/src/assets/images/이미지모음/메인섹션1/2글쓰기.jpg" alt="슬라이드2" class="section1-img">
+                              </a>
+                              <div class="section1-slide-item">
+                                   <img src="/src/assets/images/이미지모음/유저프로필/user2-first.jpg" alt="유저프로필"
+                                        class="userprofile">
+                                   <p class="username">@username</p>
+                              </div>
+                         </li>
+                         <li class="section1-slide">
+                              <a href="#">
+                                   <img src="/src/assets/images/이미지모음/메인섹션1/2신문.jpg" alt="슬라이드2" class="section1-img">
+                              </a>
+                              <div class="section1-slide-item">
+                                   <img src="/src/assets/images/이미지모음/유저프로필/user2-1.jpg" alt="유저프로필"
+                                        class="userprofile">
+                                   <p class="username">@username</p>
+                              </div>
+                         </li>
+                         <li class="section1-slide">
+                              <a href="#">
+                                   <img src="/src/assets/images/이미지모음/메인섹션1/2아이패드.jpg" alt="슬라이드2" class="section1-img">
+                              </a>
+                              <div class="section1-slide-item">
+                                   <img src="/src/assets/images/이미지모음/유저프로필/user2-2.jpg" alt="유저프로필"
+                                        class="userprofile">
+                                   <p class="username">@username</p>
+                              </div>
+                         </li>
+                         <li class="section1-slide">
+                              <a href="#">
+                                   <img src="/src/assets/images/이미지모음/메인섹션1/2자연독서.jpg" alt="슬라이드2" class="section1-img">
+                              </a>
+                              <div class="section1-slide-item">
+                                   <img src="/src/assets/images/이미지모음/유저프로필/user2-3.jpg" alt="유저프로필"
+                                        class="userprofile">
+                                   <p class="username">@username</p>
+                              </div>
+                         </li>
+                         <li class="section1-slide">
+                              <a href="#">
+                                   <img src="/src/assets/images/이미지모음/메인섹션1/2포스트잇.jpg" alt="슬라이드2" class="section1-img">
+                              </a>
+                              <div class="section1-slide-item">
+                                   <img src="/src/assets/images/이미지모음/유저프로필/user2-4.jpg" alt="유저프로필"
+                                        class="userprofile">
+                                   <p class="username">@username</p>
+                              </div>
+                         </li>
+                         <li class="section1-slide">
+                              <a href="#">
+                                   <img src="/src/assets/images/이미지모음/메인섹션1/2회색펜노트.jpg" alt="슬라이드2"
+                                        class="section1-img">
+                              </a>
+                              <div class="section1-slide-item">
+                                   <img src="/src/assets/images/이미지모음/유저프로필/user2-5.jpg" alt="유저프로필"
+                                        class="userprofile">
+                                   <p class="username">@username</p>
+                              </div>
+                         </li>
+                    </ul>
+               </div>
+               <button type="button" class="main-pre-button"><img src="/src/assets/images/icons/이전버튼.png" alt="이전버튼" class="sign-button-img"></button>
+               <button type="button" class="main-next-button"><img src="/src/assets/images/icons/다음버튼.png" alt="다음버튼" class="sign-button-img"></button>
+          </section>
+
+
+
+          <section class="section2">
+
+               <div class="section2-text-wrapper">
+                    <div class="section2-text">
+                         <div class="title2-text">지금 가장 핫한 문구템 구경하기</div>
+                         <div class="add2-text">나에게 맞는 장비로 더 즐거운 기록타임</div>
+                    </div>
+                    <a href="#" class="btn-plus">더보기</a>
+               </div>
+
+               <div class="section2-wrapper">
+                    <ul class="section2-ul-all">
+                    <li class="section2-slide">
+                         <div class="section2-slide-img-wrapper">
+                              <a href="#">
+                                   <img src="/src/assets/images/이미지모음/메인섹션2/다이어리.jpg" alt="상품사진1" class="section2-img">
+                              </a>
+                              <a href="#"><img src="/src/assets/images/icons/장바구니그레이.png" alt="장바구니아이콘"
+                                        class="cart-icon2"></a>
+                         </div>
+                         <div class="section2-slide-text-wrapper">
+                              <div class="brand">P.S.</div>
+                              <div class="product">2026 다이어리</div>
+                              <div class="price">13,000</div>
+                         </div>
+                    </li>
+
+                    <li class="section2-slide">
+                         <div class="section2-slide-img-wrapper">
+                              <a href="#">
+                                   <img src="/src/assets/images/이미지모음/메인섹션2/필통.jpg" alt="상품사진2" class="section2-img">
+                              </a>
+                              <a href="#"><img src="/src/assets/images/icons/장바구니그레이.png" alt="장바구니아이콘"
+                                        class="cart-icon2"></a>
+                         </div>
+                         <div class="section2-slide-text-wrapper">
+                              <div class="brand">PENCIL</div>
+                              <div class="product">내구성 좋은 필통 케이스</div>
+                              <div class="price">16,000</div>
+                         </div>
+                    </li>
+
+                    <li class="section2-slide">
+                         <div class="section2-slide-img-wrapper">
+                              <a href="#">
+                                   <img src="/src/assets/images/이미지모음/메인섹션2/캘린더.jpg" alt="상품사진3" class="section2-img">
+                              </a>
+                              <a href="#"><img src="/src/assets/images/icons/장바구니그레이.png" alt="장바구니아이콘"
+                                        class="cart-icon2"></a>
+                         </div>
+                         <div class="section2-slide-text-wrapper">
+                              <div class="brand">MUJI</div>
+                              <div class="product">2026 미니 캘린더</div>
+                              <div class="price">6,000</div>
+                         </div>
+                    </li>
+
+                    <li class="section2-slide">
+                         <div class="section2-slide-img-wrapper">
+                              <a href="#">
+                                   <img src="/src/assets/images/이미지모음/메인섹션2/편지지.jpg" alt="상품사진4" class="section2-img">
+                              </a>
+                              <a href="#"><img src="/src/assets/images/icons/장바구니그레이.png" alt="장바구니아이콘"
+                                        class="cart-icon2"></a>
+                         </div>
+                         <div class="section2-slide-text-wrapper">
+                              <div class="brand">LETTER</div>
+                              <div class="product">마음전하기 좋은 깔끔 편지 SET</div>
+                              <div class="price">9,000</div>
+                         </div>
+                    </li>
+
+                    <li class="section2-slide">
+                         <div class="section2-slide-img-wrapper">
+                              <a href="#">
+                                   <img src="/src/assets/images/이미지모음/메인섹션2/2바인더.jpg" alt="상품사진5" class="section2-img">
+                              </a>
+                              <a href="#"><img src="/src/assets/images/icons/장바구니그레이.png" alt="장바구니아이콘"
+                                        class="cart-icon2"></a>
+                         </div>
+                         <div class="section2-slide-text-wrapper">
+                              <div class="brand">POSET</div>
+                              <div class="product">Ticket Book</div>
+                              <div class="price">15,000</div>
+                         </div>
+                    </li>
+
+                    <li class="section2-slide">
+                         <div class="section2-slide-img-wrapper">
+                              <a href="#">
+                                   <img src="/src/assets/images/이미지모음/메인섹션2/2스티커.jpg" alt="상품사진6" class="section2-img">
+                              </a>
+                              <a href="#"><img src="/src/assets/images/icons/장바구니그레이.png" alt="장바구니아이콘"
+                                        class="cart-icon2"></a>
+                         </div>
+                         <div class="section2-slide-text-wrapper">
+                              <div class="brand">Sticky</div>
+                              <div class="product">Big Sticker Pack</div>
+                              <div class="price">5,000</div>
+                         </div>
+                    </li>
+
+                    <li class="section2-slide">
+                         <div class="section2-slide-img-wrapper">
+                              <a href="#">
+                                   <img src="/src/assets/images/이미지모음/메인섹션2/2인덱스.jpg" alt="상품사진7" class="section2-img">
+                              </a>
+                              <a href="#"><img src="/src/assets/images/icons/장바구니그레이.png" alt="장바구니아이콘"
+                                        class="cart-icon2"></a>
+                         </div>
+                         <div class="section2-slide-text-wrapper">
+                              <div class="brand">LETTER</div>
+                              <div class="product">인덱스 카드</div>
+                              <div class="price">1,500</div>
+                         </div>
+                    </li>
+
+                    <li class="section2-slide">
+                         <div class="section2-slide-img-wrapper">
+                              <a href="#">
+                                   <img src="/src/assets/images/이미지모음/메인섹션2/2데스크.jpg" alt="상품사진8" class="section2-img">
+                              </a>
+                              <a href="#"><img src="/src/assets/images/icons/장바구니그레이.png" alt="장바구니아이콘"
+                                        class="cart-icon2"></a>
+                         </div>
+                         <div class="section2-slide-text-wrapper">
+                              <div class="brand">P.S.</div>
+                              <div class="product">desk 모음전</div>
+                              <div class="price">36,000 ~</div>
+                         </div>
+                    </li>
+                    
+               </ul>
+               </div>
+               
+               <button type="button" class="main2-pre-button"><img src="/src/assets/images/icons/이전버튼.png" alt="이전버튼" class="sign-button-img"></button>
+               <button type="button" class="main2-next-button"><img src="/src/assets/images/icons/다음버튼.png" alt="다음버튼" class="sign-button-img"></button>
+          </section>
+
+
+          <section class="section3">
+
+               <div class="section3-text-wrapper">
+                    <div class="section3-text">
+                         <div class="title3-text">P.S. 이야기 들려드려요</div>
+                         <div class="add-text">기록팁 / 오프라인소식 / 인플루언서 찾기</div>
+                    </div>
+                    <a href="#" class="btn-plus">더보기</a>
+               </div>
+
+               <ul class="section3-wrapper">
+                    <li class="section3-slide">
+                         <a href="#">
+                              <img src="/src/assets/images/이미지모음/메인섹션3/매거진1.jpg" alt="매거진1" class="section3-img">
+                         </a>
+                    </li>
+                    <li class="section3-slide">
+                         <a href="#">
+                              <img src="/src/assets/images/이미지모음/메인섹션3/매거진2.jpg" alt="매거진2" class="section3-img">
+                         </a>
+                    </li>
+                    <li class="section3-slide">
+                         <a href="#">
+                              <img src="/src/assets/images/이미지모음/메인섹션3/매거진3.jpg" alt="매거진3" class="section3-img">
+                         </a>
+                    </li>
+               </ul>
+
+          </section>
+     </main>
+
+
+     <footer class="footer">
+          <div class="footer-left">
+               <div class="footer-left-text">P.S. 온라인 고객센터<a href="tel:00-0000-0000">00-0000-0000</a></div>
+               <div class="footer-left-text">운영시간 :평일 오전 9시 ~ 오후 6시 (주말/공휴일 휴무)</div>
+               <div class="footer-left-text">점심시간 :오후 12시 ~ 오후 1시</div>
+               <div class="footer-left-text">예금주 :(주)피에스 0000-000-000000</div>
+               <div class="footer-left-text">주소 :광주광역시 북구 000 (ㅇㅇ동)</div>
+               <div class="footer-left-text">입점문의 :<a href="mailto:example@example.com"> example@example.com</a></div>
+               <div class="footer-left-text">Copyright 2025 © All rights reserved.P.S. 피에스.</div>
+          </div>
+          <div class="footer-right">
+               <div class="footer-right-text">피에스</div>
+               <div class="footer-right-text">대표이사 :ㅇㅇㅇ</div>
+               <div class="footer-right-text">사업자등록번호 :000-00-00000</div>
+               <div class="footer-right-text">[사업자정보확인]통신판매업신고 :0000-광주북구-0000</div>
+               <div class="footer-right-text">팩스 :<a href="tel:00-0000-0000">00-0000-0000</a></div>
+               <div class="footer-right-text"><a href="#">회사소개/이용약관/개인정보처리방침/이용안내</a></div>
+          </div>
+     </footer>
+
+</body>
+
+
+</html>
