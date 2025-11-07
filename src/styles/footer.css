@@ -1,0 +1,21 @@
+.footer{
+     background-color:#f3f3f3;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 550px;
+     padding: 50px 118px;
+     font-size: 13px;
+}
+.footer-left{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     white-space: nowrap;
+}
+.footer-right{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     white-space: nowrap;
+}

@@ -1,0 +1,103 @@
+.section2 {
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     width: 100%;
+     position: relative;
+}
+.section2-text-wrapper {
+     width: 1196px;
+     height: 90px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: auto;
+}
+
+.section2-text {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     gap: 10px;
+     height: 54px;
+     min-width: 260px;
+}
+
+.title2-text {
+     white-space: nowrap;
+     font-size: 24px;
+     font-weight: 700;
+}
+.section2-wrapper{
+     width: 100%;
+     /* overflow: hidden; */
+}
+.section2-ul-all{
+     width: calc(100% * 2);
+     display: flex;
+     gap: 37px;
+     margin: auto;
+     z-index: 0;
+     position: relative;
+     overflow: visible;
+}
+.section2-slide {
+     flex: 0 0 calc(100% -37px / 4);
+     box-sizing: border-box;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     gap: 7px;
+}
+.section2-slide-img-wrapper{
+     position: relative;
+}
+
+.section2-img {
+     width: 270px;
+     height: 270px;
+     border-radius: 10px;
+     object-fit: cover;
+     z-index: 1;
+}
+
+.cart-icon2{
+     position: absolute;
+     width: 30px;
+     height: 30px;
+     bottom: 10px;
+     right: 10px;
+     z-index: 0;
+}
+.section2-slide-text-wrapper{
+     display: flex;
+     flex-direction: column;
+     gap: 7px;
+}
+.section2-slide-text-wrapper .brand{
+     color: #8E8E93;
+}
+.product{
+     font-size: 20px;
+     font-weight: 700;
+}
+.price{
+     font-weight: 700;
+}
+.main2-pre-button,
+.main2-next-button {
+     position: absolute;
+     cursor: pointer;
+     background: none;
+     border: none;
+     top: 55%;
+     transform: translateY(-50%);
+     z-index: 10;
+}
+.main2-pre-button{
+     left: -40px;
+}
+.main2-next-button{
+     right: -40px;
+}
