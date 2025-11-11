@@ -1,19 +1,25 @@
 .headertop {
      background-color: #000;
-     height: 40px;
-     width: 1196px;
      color: #fff;
+     width: 100%;
+     height: 40px;
      display: flex;
      justify-content: center;
      align-items: center;
      gap: 30px;
-     margin: 0;
-     padding: 0;
+     margin: auto;
 }
 
 .headertop-text-mobile {
      display: none;
+}
 
+.appimg {
+     display: none;
+     width: 32px;
+     height: 32px;
+     background-color: #fff;
+     border-radius: 5px;
 }
 
 .headertop-btn {
@@ -148,10 +154,16 @@
 }
 
 
+
 @media screen and (max-width:390px) {
      .headertop {
-          height: 70px;
-          width: 100%;
+          height: 100px;
+          gap: 20px;
+          display: flex;
+          
+     }
+     .appimg{
+          display: block;
      }
 
      .headertop-text {
@@ -180,7 +192,8 @@
           display: flex;
           gap: 30px;
      }
-     .top-menu-wrapper{
+
+     .top-menu-wrapper {
           padding: 0;
           gap: 0;
      }
@@ -196,7 +209,7 @@
           display: flex;
           justify-content: space-between;
           align-items: center;
-          padding: 40px 16px 20px;
+          padding: 20px 16px;
           gap: 70px;
      }
 
@@ -215,7 +228,7 @@
           font-size: 14px;
           list-style: none;
           display: flex;
-          padding: 0;
+          padding: 0 16px;
           margin: 0;
           gap: 20px;
           min-width: max-content;
@@ -229,5 +242,5 @@
           display: block;
           padding: 0 20px;
      }
-     
+
 }
