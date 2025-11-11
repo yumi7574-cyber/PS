@@ -119,4 +119,8 @@ function nextslidetrack2 (){
 main2prebutton.addEventListener('click', freslidetrack2);
 main2nextbutton.addEventListener('click', nextslidetrack2);
 
+window.addEventListener('load', () => {
+    const nav = document.querySelector('.main-nav');
+    if (nav) nav.scrollLeft = 0; 
+  });
 
