@@ -67,14 +67,14 @@
 ---
 
 ## ⚫ Preview
-> 데스크탑 버전
+- 데스크탑 버전
 ![Image](https://github.com/user-attachments/assets/e8590708-fe12-469c-ac76-33cc237eb026)
 
 ![Image](https://github.com/user-attachments/assets/a67349e8-4e29-4bf3-ad80-f9ff9486d0f6)
 
 ![Image](https://github.com/user-attachments/assets/ac7136f1-a1a0-4c44-8c09-2192f3aae234)
 
-> 모바일 버전
+- 모바일 버전
 ![Image](https://github.com/user-attachments/assets/86ccd2cc-5a52-428f-8686-6bdecc92e38c)
 
 ![Image](https://github.com/user-attachments/assets/379ab5fa-9a47-4ed5-8799-5186da4c8b46)
